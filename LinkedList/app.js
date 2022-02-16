@@ -59,9 +59,6 @@ class LinkedList {
             return
         }
     }
-
-
-
     toArr() {
         let nodes = [];
         let currentNode = this.head;
@@ -95,10 +92,11 @@ link.append('one')
 link.append('two')
 link.append('three')
 link.append('four')
-link.append('two')
 link.append('five')
 
-console.log(link.insertAfter('test', 'four'))
+console.log(link.toArr())
+link.delete('five');
+console.log(link.toArr())
 
 
 
