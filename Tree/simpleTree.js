@@ -123,13 +123,13 @@ class Tree {
 }
 
 const fileSystem = new Tree('/');
-fileSystem.add('documents/data/text.txt')
-fileSystem.add('files')
-fileSystem.add('games/cs-go')
-fileSystem.add('games/kingOfRush')
-fileSystem.add('games/kingOfRush/test')
-
-console.log(fileSystem.findOne('kingOfRush'))
-console.log('++++++++++++++++++++++++')
-console.log(fileSystem.findTwo('kingOfRush'))
+// fileSystem.add('documents/data/text.txt')
+// fileSystem.add('files')
+// fileSystem.add('games/cs-go')
+// fileSystem.add('games/kingOfRush')
+// fileSystem.add('games/kingOfRush/test')
+//
+// console.log(fileSystem.findOne('kingOfRush'))
+// console.log('++++++++++++++++++++++++')
+// console.log(fileSystem.findTwo('kingOfRush'))
 
