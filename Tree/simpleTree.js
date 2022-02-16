@@ -11,6 +11,7 @@ class Node {
         if (segments.length === 0) {
             return
         }
+
         if (segments.length === 1) {
             const node = new Node(segments[0], this)
             this.children.push(node)
